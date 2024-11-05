@@ -1,0 +1,16 @@
+{
+  "books": [
+    {
+      "id": "3",
+      "title": "The Hobbit",
+      "genre": "Fantasy",
+      "review": "Great introduction to J.R.R. Tolkien,  you'll love it"
+    },
+    {
+      "title": "Wuthering Heights",
+      "genre": "Romance",
+      "review": "Beautifully written, such a classic!",
+      "id": "SPKrCNb"
+    }
+  ]
+}

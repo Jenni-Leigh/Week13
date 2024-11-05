@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <h1>Book List</h1>
+    <button id="fetchBooksBtn">Fetch Books</button>
+    <div id="bookList"></div>
+    <div id="errorMessage" style="color: red"></div>
+    <div id="responseMessage"></div>
+
+    <!-- This is where I have my html for adding a review-->
+    <h1>Submit Your Book Review</h1>
+    <form id="reviewForm">
+      <label for="title">Book Title:</label>
+      <input type="text" id="title" name="title" required />
+
+      <label for="genre">Genre:</label>
+      <input type="text" id="genre" name="genre" required />
+
+      <label for="review">Review:</label>
+      <textarea id="review" name="review" required></textarea>
+
+      <button id="submitBtn" type="submit">Submit Review</button>
+     
+    </form>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
